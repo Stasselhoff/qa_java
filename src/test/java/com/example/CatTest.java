@@ -11,7 +11,7 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(MockitoJUnitRunner.class)
-public class testCat {
+public class CatTest {
 
     @Mock
     private Feline feline;
@@ -26,7 +26,8 @@ public class testCat {
 
     @Test
     public void getSound() {
+        Cat cat = new Cat(feline);
         String myau = "Мяу";
-        assertEquals("Ошибка теста мяу", myau, "Мяу");
+        assertEquals("Ошибка теста мяу", myau, cat.getSound());
     }
 }
