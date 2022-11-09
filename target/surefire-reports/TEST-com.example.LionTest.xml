@@ -64,7 +64,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.example.LionTest" name="doesHaveMane" time="0.001"/>
+  <testcase classname="com.example.LionTest" name="doesHaveMane" time="0"/>
   <testcase classname="com.example.LionTest" name="getFood" time="0.002"/>
-  <testcase classname="com.example.LionTest" name="getKittens" time="0"/>
+  <testcase classname="com.example.LionTest" name="getKittens" time="0.001"/>
 </testsuite>
