@@ -33,4 +33,5 @@ public class LionParameterizedTest {
         boolean actualResult = lion.doesHaveMane();
         Assert.assertEquals("...", expectedResult, actualResult);
     }
+
 }

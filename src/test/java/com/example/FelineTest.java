@@ -57,4 +57,5 @@ public class FelineTest {
         ee.expectMessage("Неизвестный вид животного, используйте значение Травоядное или Хищник");
         feline.getFood("Не хищник");
     }
+
 }

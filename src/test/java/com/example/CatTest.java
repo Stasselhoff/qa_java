@@ -30,4 +30,5 @@ public class CatTest {
         String myau = "Мяу";
         assertEquals("Ошибка теста мяу", myau, cat.getSound());
     }
+
 }

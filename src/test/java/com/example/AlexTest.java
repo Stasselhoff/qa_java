@@ -36,6 +36,4 @@ public class AlexTest {
         assertEquals("Ошибка теста мяу", friendList, alex.getFriends());
     }
 
-
-
 }

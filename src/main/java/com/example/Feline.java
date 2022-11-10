@@ -26,5 +26,4 @@ public class Feline extends Animal implements Predator, IFeline {
     public List<String> getFood(String animal) throws Exception {
         return super.getFood(animal);
     }
-
 }
